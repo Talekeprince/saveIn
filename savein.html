@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="keywords" content="Save yuor files and data and get them when ever you need them">
+    <title>savein.com</title>
+    <link rel="stylesheet" href="savein.css">
+    <script src="savein.js" defer></script>
+</head>
+
+<body>
+    <!-- ==================== HEADER  START =============== -->
+    <header>
+        <nav>
+            <div id="nav-menu" style="background: white;">
+                <span id="span-one" style="border-right: 2px solid grey;"></span>
+                <span id="span-two" style="border-right: 2px solid grey;"></span>
+                <span id="span-three" style="border-right: 2px solid grey;"></span>
+            </div>
+        </nav>
+        <div id="menu-items"></div>
+    </header>
+    <!--==================== pop up ===========-->
+    <div id="items"></div>
+    <!-- ==================== pop up end ========== -->
+    <div id="logo">
+        <span id="save">SAVE<span id="in">IN</span></span>
+        <br>
+        <div id="search-contents" class="hideSearch">
+            <p>Result not found!😔</p>
+        </div>
+        <br>
+       <form>
+            <span id="search-input"><input type="email" name="search"
+                placeholder="Enter Email Address"></span>
+                <br>
+
+                    <span id="search-input" class="text-input"><input type="text" name="search"
+                placeholder="Enter User name"></span>
+        <br>
+        <button id="login-btn" onclick="search_button()">Submit</button>
+       </form>
+        <br>
+        <div>
+            <button id="add-file" onclick="add_file()" style="background: white;">
+                <span id="plus">+</span>
+                <br>
+                <br>
+                <span>Add Data</span>
+            </button>
+            <button id="support" onclick="support()">
+                <span id="s">s</span>
+                <br>
+                <br>
+                <span>Support</span>
+            </button>
+        </div>
+    </div>
+
+
+
+    <p id="copyright">Copyright © 2023 @PRINCEWILL~DTCM's Dev space all right reserved</p>
+</body>
+
+</html>
